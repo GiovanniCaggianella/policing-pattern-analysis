@@ -58,7 +58,6 @@ class PolicingEquityAnalysis:
         self.validate_with_hierarchical()
         self.dimensionality_reduction()
         self.visualize()
-        self.save_results()
         
         print("\n" + "="*70)
         print("✓ Analysis completed successfully!")
